@@ -1,6 +1,6 @@
 # app.js
 
-```bash
+```shell
 
 user@DESKTOP-9VVBDPS MINGW64 /d/110713305/learn_Deno/00 (master)
 $ deno run app.ts
