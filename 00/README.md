@@ -1,6 +1,6 @@
 # app.js
 
-```git bash
+```bash
 user@DESKTOP-9VVBDPS MINGW64 /d/110713305/learn_Deno/00 (master)
 $ deno run app.ts
 error: Uncaught PermissionDenied: network access to "0.0.0.0:8000", run again 
@@ -17,7 +17,7 @@ $ deno run --allow-net  app.ts
 http://localhost:8000/
 ```
 
-    * We have a permission denied problem.
+* We have a permission denied problem.
 
     if a program want to access the network like in the previous case, then we need to give it permission.
 
