@@ -17,9 +17,12 @@ $ deno run --allow-net  app.ts
 http://localhost:8000/
 ```
 
-* We have a permission denied problem.
+    * We have a permission denied problem.
 
     if a program want to access the network like in the previous case, then we need to give it permission.
 
     We can do so by passing a flag when we run the command, in this case `--allow-net`
 
+# Formatting code
+
+`deno fmt app.ts`
